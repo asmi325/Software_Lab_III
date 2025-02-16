@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Happy Tours{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Happy Tours!</h1>
+    <p class="lead">Best Places to visit once in a Lifetime.</p>
+    <hr class="my-4">
+    <p>Explore the app using the navigation bar above.</p>
+    <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">India</h5>
+                <p class="card-text">Some quick tourist places in India.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">USA</h5>
+                <p class="card-text">Some quick tourist places in USA.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Canada</h5>
+                <p class="card-text">Some quick tourist places in Canada.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
